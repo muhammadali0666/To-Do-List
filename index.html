@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+  <header class="pb-2">
+    <div class="container bg-info pt-2 pb-2">
+      <h1 class="todo text-center">
+        ToDoList
+      </h1>
+    </div>
+  </header>
+
+ <section>
+  <div class="container">
+    <form class="form pt-3">
+      <div class="mx-auto">
+        <input type="text" class="input form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <button type="submit" class=" btn btn-primary mt-3 px-5 mb-5">
+        Add
+      </button>
+    </form>
+
+    <ul class="list"></ul>
+    <button class="btn btn-info">All <span class="all">0</span></button>
+    <button class="btn btn-danger">Complated <span class="completed">0</span></button>
+    <button class="btn btn-info">Uncompleted <span class="uncompleted">0</span></button>
+  </div>
+ </section>
+  
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
